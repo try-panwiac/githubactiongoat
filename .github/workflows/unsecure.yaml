@@ -7,7 +7,7 @@ jobs:
     name: job2
     runs-on: ubuntu-latest
     env:
-      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true 
     steps:
       - name: unsecure-step2
         run: |
