@@ -16,6 +16,6 @@ jobs:
     name: job3
     runs-on: ubuntu-latest
     env:
-      ACTIONS_ALLOW_UNSECURE_COMMANDS: false
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
     run: |
       echo "ok"
